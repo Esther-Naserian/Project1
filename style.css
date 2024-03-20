@@ -3,9 +3,31 @@ display: flex;
 justify-content: space-evenly;
 text-decoration: none;
 font-size: larger;
+background-color: aqua;
 }
 .head1{
 margin-left: 50%;
 }
 .button1{
+    margin-left: 50%;
+    border-radius: 20%;
+    height: 40px;
+    width: 150px;
+    background-color: brown;
+}
+#container2{
+
+}
+span{
+    color: rgb(33, 33, 223);
+}
+.img1{
+border-radius: 100%;
+margin-left: 50%;
+width: 30%;
+
+
+}
+.img2{
+    width: 30%;
 }
