@@ -35,5 +35,12 @@ font-style: inherit;
 font-size: large;
 }
 #maincontainer{
+    background-color:dimgray;
 
+}
+body{
+    background-color: white;
+}
+#button12{
+    color: blue;
 }
