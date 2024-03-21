@@ -1,2 +1,26 @@
 
+#page5{
     
+    width:1000px;
+}
+.input{
+padding: 20px;
+}
+#last button{
+    width: 70px;
+    height: 60px;
+    
+}
+body{
+background-color: darkorange;
+}
+.img{
+    width: 1800px;
+    height: 750px;
+}
+.butt{
+width: 100px;
+height: 70px;
+background-color: darkslategray;
+color: rgb(233, 220, 220) 
+}

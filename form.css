@@ -17,7 +17,7 @@
 }
 #button12{
 font-size: large;
-color: rgb(64, 64, 124);
+color: rgb(47, 47, 151);
 
 }
 #container3{
@@ -43,4 +43,7 @@ body{
 }
 #button12{
     color: blue;
+}
+#container{
+    background-color: rgb(25, 25, 134);
 }

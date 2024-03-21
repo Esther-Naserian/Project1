@@ -3,7 +3,7 @@ display: flex;
 justify-content: space-evenly;
 text-decoration: none;
 font-size: larger;
-background-color: aqua;
+background-color: rgb(140, 140, 229);
 
 }
 .head1{
@@ -58,18 +58,18 @@ body{
     width: 35%;
 }
 #learn1{
-width: 1200px;
-height: 1000px;
-background-image: url(images/pp1.png);
+width: 2000px;
+height: 1800px;
+background-image: url(images/class\ one.jpg);
 animation-name: naserian;
- animation-duration: 5s;
+ animation-duration: 10s;
  background-repeat: no-repeat;
 
 }
 @keyframes naserian{
-    fromb{background-image: url(images/pp1.png);}
-    to{background-image: url(images/pp2.png);}
-    from{background-image: url(images/pp4.png);}
+    fromb{background-image: url(images/class\ one.jpg);}
+    to{background-image: url(images/class\ two.jpg);}
+    from{background-image: url(images/class\ three.jpg);}
 }
 #container2{
     text-align: center;
@@ -78,7 +78,7 @@ animation-name: naserian;
 }
 body{
     border-radius: 50%;
-    background-color: darkgoldenrod;
+    background-color: rgb(236, 175, 21);
 
 }
 .teacher{
@@ -96,6 +96,5 @@ gap: 10%;
 #container7{
     margin-left: 30%;
 }
-#manage{
+
     
-}
