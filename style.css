@@ -11,12 +11,10 @@ margin-left: 30%;
 }
 .button1{
     margin-left: 50%;
-    border-radius: 20%;
+    border-radius: 30%;
     height: 40px;
     width: 150px;
-    background-color: brown;
-}
-#container2{
+    background-color: white
 
 }
 span{
@@ -49,17 +47,16 @@ display: flex;
 justify-content: space-between;
 }
 body{
-    background-image: url(images/);
+    background-color: beige;
     background-size: cover;
-    border-radius: 25px;
-    padding: 20px;
+
 }
 .img1{
     width: 35%;
 }
 #learn1{
-width: 2000px;
-height: 1800px;
+width:5000px;
+height: 400px;
 background-image: url(images/class\ one.jpg);
 animation-name: naserian;
  animation-duration: 10s;
@@ -77,8 +74,8 @@ animation-name: naserian;
     color: black;
 }
 body{
-    border-radius: 50%;
-    background-color: rgb(236, 175, 21);
+    margin: 0;
+    
 
 }
 #teacher1{
@@ -96,5 +93,13 @@ gap: 10%;
 #container7{
     margin-left: 30%;
 }
-
+#container1{
+background-color: rgb(224, 224, 39);
+margin: 0%;
+overflow-x: hidden;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
     
