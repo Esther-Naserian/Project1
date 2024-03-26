@@ -101,5 +101,137 @@ overflow-x: hidden;
 #footer{
     display: flex;
     justify-content: space-between;
+    background-color: rgb(95, 95, 196);
 }
+#teachers form{
+    font-size: medium;
+}
+@media screen and (max-width: 650px){
     
+
+    
+#navbar{
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: small;
+    background-color: rgb(140, 140, 229);
+    
+    }
+    }
+    .button1{
+        border-radius: 40%;
+        height: 40px;
+        width: 100px;
+        background-color: white
+    
+    }
+    span{
+        color: rgb(33, 33, 223);
+    }
+    .img1{
+    border-radius: 100%;
+    width: 30%;
+    
+    
+    }
+    .img2{
+        width: 30%;
+        border-radius: 50%;
+    }
+    
+    .place{
+        width: 150px;
+        height: 120px;
+    }
+    #page1{
+    justify-content: space-between;
+    
+    }
+    #my images{
+    
+    }
+    body{
+        background-color: beige;
+        background-size: cover;
+    
+    }
+    .img1{
+        width: 35%;
+    }
+    #learn1{
+    width:5000px;
+    height: 400px;
+    background-image: url(images/class\ one.jpg);
+    animation-name: naserian;
+     animation-duration: 10s;
+     background-repeat: no-repeat;
+    
+    }
+    @keyframes naserian{
+        fromb{background-image: url(images/class\ one.jpg);}
+        to{background-image: url(images/class\ two.jpg);}
+        from{background-image: url(images/class\ three.jpg);}
+    }
+    #container2{
+        text-align: center;
+        color: black;
+        font-size: small;
+    }
+    body{
+        margin: 0;
+        
+    
+    }
+    #teacher1{
+    background-color: blue;
+    width: 20%;
+    height: 9vh;
+    border-radius: 29px;
+    font-size: small;
+    color: black;
+    }
+    #form{
+font-size: small;
+    
+    }
+    #container7{
+    
+    }
+    #container1{
+    background-color: orange;
+    margin: 0%;
+    overflow-x: hidden;
+    }
+    #footer{
+        font-size: small;
+        flex-wrap: wrap;
+        background-color: rgb(95, 95, 196);
+    }
+    #teachers form{
+        font-size: small;
+        grid-template-columns: grid;
+    }
+    .head1{
+        font-size: small;
+        
+    }
+    #page1{
+        font-size: small;
+    }
+    #teacher{
+        font-size: small;
+    }
+    .mission{
+        font-size: small;
+    }
+    .h1{
+        font-size: small;
+    }
+    .imgp{
+        width: 90px;
+        height: 90px;
+    }
+    .head1{
+        width: 90px;
+    }
+        
