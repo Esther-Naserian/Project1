@@ -117,7 +117,7 @@ overflow-x: hidden;
     background-color: rgb(140, 140, 229);
     
     }
-    }
+    
     .button1{
         border-radius: 40%;
         height: 40px;
@@ -235,3 +235,4 @@ font-size: small;
         width: 90px;
     }
         
+}
