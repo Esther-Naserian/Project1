@@ -6,94 +6,65 @@
     <title>Document</title>
     <link rel="stylesheet" href="form.css">
 </head>
-<body>
-    <div id="maincontainer">
-    
+<body> 
     <form>
     <span>Did you want to learn with us?Please fill in your details below</span>
 <br>
 <br>
-<div id="name">
     <h1 >STUDENT REGISTRATION  FORM</h1>
-    </div>
-    <h1>Fill out the form carefully for registration</h1>
-    <a href="index.html" Sign In> Sign In</a>
-    <h2></h2>
-    <div id="page1">
-        <div>
     
-            <form action="save_data.py" method="post">  
+    <h1>Fill out the form carefully for registration</h1>
+    <div id="form" action="index.html">
+               <label for="First Name">First  Name:</label>
+            <br>
+    <input name="First Name" type="text" placeholder="Enter name" required class="input"/>
 
-            
-            <label for="First Name">First  Name:</label>
-    <input name="First Name" type="text" placeholder="Enter name" class="place"/>
-    </div>
     <br/>
-    <br/>
-    </br>
 </br>
-<div>
     <label for="Last Name">Last Name</label>
-    <input name="Last Name type="text placeholder="Last name" class="place"/>
-</div>
-</div>
+    <br>
+    <input name="Last Name type="text placeholder="Last name" required class="input"/>
 
-    </br>
 </br>
 </br>
-</br>
-<div class="page2"> 
-    <div>
-    <label for="email">Email Adress</label>
-    <input name="email" type="email" placeholder="Enter email" class="place"/>
-</div>
- <label for="Date of birth">Date of birth</label>
-<input name="Date of birth" type="Date of birth" placeholder="Enter Date of birth" class="place"/>
-    </div>
-
-    <br/>
-    <br/>
-</br>
-</br>
-<div id="container1">
-    <div>
+ <label for="email">Email Adress</label>
+    <br>
+    <input name="email" type="email" placeholder="Enter email" required class="input">
+<br>
+<br>
+ <label for="Date">Date of birth</label>
+ <br>
+<input for="Date of birth" type="Date" placeholder="Enter Date of birth" required class="input">
+<br>
+<br>
 <label for="Gender">Gender</label>
 <label for="Male">Male</label>
-    <input type="checkbox" type="checkbox">
+    <input type="checkbox" type="checkbox" required class="input">
     <label for="Female">Female</label>
-    <input type="checkbox" type="checkbox">
-    </div>
-</div>
-<br>
-<br>
-    <div id="container3">
-    <label for="City">City</label>
-    <input name="City" type="City" placeholder="City">
-    <br>
-    <br>
-    <label for="Region">Region</label>
-    <input name="Region" type="Region" placeholder="Region">
-    <br>
-    <br>
-    </div>
-    <div id="footer">
-    <label for="List Of classes ">List Of Classes</label>
-    <input name="List Of Classes" type="List Of Classes" placeholder="Please select"> 
-    </div>
+    <input type="checkbox" type="checkbox" required class="input">
     
-    <br/>
-    <br/>
-</br>
-</br>
-<div id="button12">
-  <Button> <a href="index.html" type="SUBMIT">SUBMIT</button></a></button>
-   </div>
-    <br/>
-    <br/>
-</div>
-</form>
 
+<br>
+<br>
+
+    <label for="City">City</label>
+    <br>
+    <input name="City" type="City" placeholder="City" required class="input">
+    <br>
+    <br>
     
+    <label for="List Of classes ">List Of Classes</label>
+    <br>
+    <input name="List Of Classes" type="List Of Classes" placeholder="Please select" required class="input"> 
+</br>
+</br>
+
+ <Button>SUBMIT</button></a></button>
+ </div>
+<br/>
+ <br/>
+</div>
+</form>  
 </div>
 </body>
 </html>
