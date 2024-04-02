@@ -1,12 +1,21 @@
-body{
 
-}
 body{
-    background-color: rgb(219, 150, 20)
+   
+    width: 500px;
+    height: 500px;
+    
+    
 }
 #container{
-display: flex;
+    margin-left: 90%;
+    border: 1px solid;
+    text-align: center;
+    width: 130%;
+    height: 90vh;
+    background-color: rgb(219, 150, 20);
+    
 }
+
 .button{
     background-color:black;
     color: aliceblue;

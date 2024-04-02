@@ -1,5 +1,5 @@
 function onButtonClick(){
-    alert('ButtonClick')
+    alert('All cources Available')
 }
 const button = document.querySelector('button')
 button.addEventListener('click', onButtonClick (),);
