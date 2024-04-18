@@ -1,5 +1,5 @@
 function onButtonClick(){
-    alert('All cources Available')
+    alert('All cources available')
 }
 const button = document.querySelector('button')
 button.addEventListener('click', onButtonClick (),);
@@ -10,6 +10,7 @@ document.body.appendChild(newButton);
 newButton.addEventListener('click' ,() => {
 alert('New button cliccked!')
 })
+
 
 
     
